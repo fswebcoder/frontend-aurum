@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "provide-hex": {
+      "description": "Crea una estructura hexagonal completa",
+      "factory": "./provide-hex/index#provideHex",
+      "schema": "./provide-hex/schema.json"
+    }
+  }
+}
